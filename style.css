@@ -10,13 +10,15 @@
 
 /* I know the background is missing textures, but i couldnt fix it in AdobeXD... */
 
+
+
 .head-bg {
     background-image: url("/images/bbg.png");
     background-repeat: no-repeat;
     background-size: auto;
 
     background-position: 50% 100%;
-    height: 100vh;
+    height: 90vh;
 }
 
 .btn-yellow {
@@ -33,6 +35,7 @@
 
 .nav-item{
     margin-left: 1rem;
+    position: relative;
 }
 
 .nav-link {
@@ -44,6 +47,106 @@
     color: #ffd000 !important;
 }
 
-.active {
-    
+.mobile-png {
+    background-image: url("/images/mobile.png");
+    width: 20%;
+    background-size: cover;
+    color: white; 
+  }
+  .icon-png {
+    background-image: url("/images/playbtn.png");
+    width: 100%;
+    background-size: cover;
+    color: white; 
+    background-repeat: no-repeat;
+  }
+  .btn-border {
+    border-color: white;
+    border: 2px solid;
+    border-radius: 8px;
+  } 
+  .btn-border-orange {
+    border: 2px solid;
+    border-radius: 8px;
+  } 
+  
+  .btn-border:hover {
+    background-color: var(--ownOrange);
+  }
+  #watchVideoIcon {
+    display: none;
+  }
+  #playBtn:hover {
+    cursor: pointer;
+  }
+  .my-m-top {
+    margin-top: 1rem;
+    color: white;
+  }
+  .download-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.h-slogan{
+    color: white;
+}
+
+.ml-3 {
+    color: white;
+}
+
+#downloadbtn {
+    color: white !important;
+}
+
+#downloadbtn:hover{
+    color: #ffd000 !important; 
+}
+  
+  @media (min-width: 576px) { 
+    .my-m-top {
+      margin-top: 4rem !important;
+    }
+      .mobile-png {
+      background-image: url("/images/mobile.png");
+      width: 100%;
+      background-size: cover;
+      color: white; 
+    }
+  }
+  @media (min-width: 768px) { 
+    .my-m-top {
+      margin-top: 5rem !important;
+    }
+    #watchVideoIcon {
+      display: block;
+    }
+    #watchVideoMobile {
+      display: none;
+    }
+  }
+  @media (min-width: 992px) { 
+    .download-box {
+      align-items: left;
+      justify-content: left;
+    }
+    .my-m-top {
+      margin-top: 12rem !important;
+    }
+    #headingSection {
+      padding: 0;
+    }
+    .p-bottom {
+      padding-bottom: 8rem;
+    }
+    .active::after {
+      left: 0.5rem;
+      width: 50%;
+    }
+  }
+  @media (min-width: 1200px) { 
+    .first-section-bg {
+      height: 100%;
+    }
+  }
