@@ -19,7 +19,7 @@
     background-size: auto;
 
     background-position: 50% 100%;
-    height: 105vh;
+    height: 110vh;
 }
 
 .btn-yellow {
@@ -115,7 +115,7 @@
 }
 
 .-m-top {
-    margin-top: 10rem;
+    margin-top: 5rem;
 
 }
 
@@ -136,6 +136,51 @@
     width: 110%;
 }
 
+.my-margin {
+  height: 32rem;
+}
+
+.center-me-screens {
+  vertical-align: auto;
+  margin: auto;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.bold-txt2 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.correct-me-screens {
+  text-align: center;
+}
+
+.skyblue {
+  color: #3096FE !important ;
+}
+
+.getapp-bg {
+  background-image: url("images/sixth-bg.png");
+  width: 100%;
+  background-size: cover;
+  color: white; 
+  background-repeat: no-repeat;
+  background-position: top;
+
+}
+
+.revive {
+  margin: auto;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) { 
+  .my-margin {
+          height: 42rem;
+  }
+}
+
 @media (max-width: 375px) {
         .item1 {
             display: none;
@@ -148,6 +193,14 @@
     }
         .-m-top{
         margin-top: -5rem;
+    }
+    .revive {
+      display: flex;
+      flex-direction: column;
+  }
+
+    .blacksheep {
+      margin-left: 48px;
     }
 }
 @media (max-width: 576px) { 
@@ -171,6 +224,9 @@
     #watchVideoMobile {
       display: none;
     }
+    .my-margin {
+      height: 40rem;
+  }
 }
 @media (max-width: 768px) { 
 
@@ -201,5 +257,7 @@
     .first-section-bg {
       height: 100%;
     }
-
+    .my-margin {
+      height: 42rem;
+}
 }
