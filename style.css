@@ -114,6 +114,11 @@
 
 }
 
+.btn-warning {
+    color:#FFBB00 !important;
+    background-color: #ffe8a9 !important;
+}
+
 @media (max-width: 375px) {
         .item1 {
             display: none;
@@ -123,6 +128,9 @@
     }
         .item3 {
             display: none;
+    }
+        .-m-top{
+        margin-top: -5rem;
     }
 }
 @media (max-width: 576px) { 
@@ -164,15 +172,14 @@
     .my-m-top {
       margin-top: 12rem !important;
     }
-    #headingSection {
-      padding: 0;
-    }
+    
 }
 @media (max-width:991px) {
     .item1{
         display: none;
     }
   }
+
 @media (min-width: 1200px) { 
     .first-section-bg {
       height: 100%;
