@@ -100,14 +100,18 @@
     color: #ffd000 !important; 
 }
 
-.noAnimations {
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     align-content: space-between;
-    padding: 3rem;
-    
+    padding-top: 5rem;
+}
+
+.-m-top {
+    margin-top: 10rem;
+
 }
 
 @media (max-width: 375px) {
@@ -162,9 +166,6 @@
     }
     #headingSection {
       padding: 0;
-    }
-    .item1{
-        display: none;
     }
 }
 @media (max-width:991px) {
