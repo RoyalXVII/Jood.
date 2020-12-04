@@ -8,6 +8,11 @@
 
 */
 
+.html, body {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
 .head-bg {
     background-image: url("/images/bbg.png");
     background-repeat: no-repeat;
@@ -117,6 +122,18 @@
 .btn-warning {
     color:#FFBB00 !important;
     background-color: #ffe8a9 !important;
+}
+
+.bold-txt {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: -1.0rem;
+}
+
+.light-txt {
+    font-weight: 100;
+    font-size: 12px;
+    width: 110%;
 }
 
 @media (max-width: 375px) {
