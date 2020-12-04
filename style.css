@@ -8,17 +8,13 @@
 
 */
 
-/* I know the background is missing textures, but i couldnt fix it in AdobeXD... */
-
-
-
 .head-bg {
     background-image: url("/images/bbg.png");
     background-repeat: no-repeat;
     background-size: auto;
 
     background-position: 50% 100%;
-    height: 110vh;
+    height: 105vh;
 }
 
 .btn-yellow {
@@ -103,8 +99,29 @@
 #downloadbtn:hover{
     color: #ffd000 !important; 
 }
-  
-  @media (min-width: 576px) { 
+
+.noAnimations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    padding: 3rem;
+    
+}
+
+@media (max-width: 375px) {
+        .item1 {
+            display: none;
+    }
+        .item2 {
+            display: none;
+    }
+        .item3 {
+            display: none;
+    }
+}
+@media (max-width: 576px) { 
     .my-m-top {
       margin-top: 4rem !important;
     }
@@ -125,8 +142,17 @@
     #watchVideoMobile {
       display: none;
     }
+}
+@media (max-width: 768px) { 
+
+    .item1{
+        display: none;
+ }
+    .item2 {
+        display: none;
+ }
   }
-  @media (min-width: 992px) { 
+@media (min-width: 992px) { 
     .download-box {
       align-items: left;
       justify-content: left;
@@ -137,16 +163,18 @@
     #headingSection {
       padding: 0;
     }
-    .p-bottom {
-      padding-bottom: 8rem;
+    .item1{
+        display: none;
     }
-    .active::after {
-      left: 0.5rem;
-      width: 50%;
+}
+@media (max-width:991px) {
+    .item1{
+        display: none;
     }
   }
-  @media (min-width: 1200px) { 
+@media (min-width: 1200px) { 
     .first-section-bg {
       height: 100%;
     }
-  }
+
+}
