@@ -19,7 +19,7 @@
     background-size: auto;
 
     background-position: 50% 100%;
-    height: 110vh;
+    height: 105vh;
 }
 
 .btn-yellow {
@@ -147,11 +147,6 @@
   padding-top: 4rem;
 }
 
-.bold-txt2 {
-  font-weight: 600;
-  font-size: 16px;
-}
-
 .correct-me-screens {
   text-align: center;
 }
@@ -163,11 +158,7 @@
 .getapp-bg {
   background-image: url("images/sixth-bg.png");
   width: 100%;
-  background-size: cover;
-  color: white; 
-  background-repeat: no-repeat;
-  background-position: top;
-
+  color: #ffffff; 
 }
 
 .revive {
@@ -175,11 +166,34 @@
   justify-content: center;
 }
 
-@media (min-width: 1200px) { 
-  .my-margin {
-          height: 42rem;
-  }
+.my-blue-btn {
+  background-color: #1487FD;
+  color: white;
 }
+.p-btn {
+  padding: 0.6rem 3.5rem 0.6rem 3.5rem;
+  border-radius: 12px;
+}
+input {
+  border: none;
+      background-color: #FBFBFB;
+}
+textarea {
+  background-color: #FBFBFB;
+  border: none;
+  resize: none;
+  height: 200px;
+  width: 100%;
+}
+
+.footer-bg {
+  background-image: url('images/footer-bg.png');
+  width: 100%;
+  background-size: cover;
+  color: white; 
+  background-repeat: no-repeat;
+}
+
 
 @media (max-width: 375px) {
         .item1 {
