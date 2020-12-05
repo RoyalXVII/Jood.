@@ -14,7 +14,7 @@
 }
 
 .head-bg {
-    background-image: url("/images/bbg.png");
+    background-image: url("images/bbg.png");
     background-repeat: no-repeat;
     background-size: auto;
 
@@ -49,13 +49,13 @@
 }
 
 .mobile-png {
-    background-image: url("/images/mobile.png");
+    background-image: url("images/mobile.png");
     width: 20%;
     background-size: cover;
     color: white; 
   }
   .icon-png {
-    background-image: url("/images/playbtn.png");
+    background-image: url("images/playbtn.png");
     width: 100%;
     background-size: cover;
     color: white; 
@@ -222,7 +222,7 @@ textarea {
       margin-top: 4rem !important;
     }
       .mobile-png {
-      background-image: url("/images/mobile.png");
+      background-image: url("images/mobile.png");
       width: 100%;
       background-size: cover;
       color: white; 
